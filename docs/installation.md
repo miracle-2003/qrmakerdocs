@@ -28,15 +28,9 @@ Installing QR Menu Maker is very easy and you'll be able to install it without a
 **Warning:** Video installation tutorial doesn't include environment explanation. You can check that in the steps below.
 {% endhint %}
 
-## Video installation tutorial
-
-{% embed url="https://www.youtube.com/watch?v=XaFa8OyNiDc&feature=youtu.be" %}
-
-
-
 ### Installation on Shared Hosting
 
-Plesk / cPanel and other hosting managers are recommended. In this guide we will use Plesk but similar should be for other. 
+Plesk / cPanel and other hosting managers are recommended. In this guide we will use Plesk but similar should be for other.
 
 #### 1. Create your domain or subdomain in your shared hosting
 
@@ -56,19 +50,11 @@ The process of making database is something like this.
 
 ![](../.gitbook/assets/dbadd.png)
 
-
-
 #### 3.  Upload the source code you have downloaded from CodeCanyon and unzip it
-
-![](../.gitbook/assets/extract.png)
 
 #### 4. Now navigate to the web url where your project is located
 
 ex. mydomain.com or subdomain.mydomain.com
-
-You should be redirected to a screen like this one
-
-![](../.gitbook/assets/QR Menu Maker-installer.png)
 
 Click on the "Check Requirements" If some requirements is missing it will be noted out.
 
@@ -106,7 +92,7 @@ APP_URL=Your website url goes here
 
 {% page-ref page="../define-basics/database.md" %}
 
-* **Disable/Enable demo data** It's suggested to disable adding demo data in the process of installation. There is option for deleting  manually this data after the installation but as we mentioned it's not required. You can check the demo data in our demo website [here](https://QR Menu Maker.site/).   If you want to disable adding demo data the value of this variable will be **false** otherwise **true**.
+* **Disable/Enable demo data** It's suggested to disable adding demo data in the process of installation. There is option for deleting  manually this data after the installation but as we mentioned it's not required. You can check the demo data in our demo website [here](https://QR%20Menu%20Maker.site/).   If you want to disable adding demo data the value of this variable will be **false** otherwise **true**.
 
 ```text
 DEMO_DATA=true/false
@@ -120,30 +106,21 @@ Click on **Save and install**
 
 Now the install process will begin
 
-It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our [support chat](https://help.mobidonia.com/#QR Menu Maker).
+It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our [support chat](https://help.mobidonia.com/#QR%20Menu%20Maker).
 
 If all goes okay, you can click on "Finish".
 
-Now you have your own instance but the configuration is not over. Now you need to continue with the other environment configuration. 
+Now you have your own instance but the configuration is not over. Now you need to continue with the other environment configuration.
 
-After the installation is finished now the other configuration you will need to add/change directly in the .env file located in your source code.
+When you login as admin, you will have the option to modify and add .env values.
 
-```text
-ENABLE_LOCATION_SEARCH=true
-GOOGLE_MAPS_GEOCODING_API_KEY="" //your API Key
-```
-
-By default the site will not have "Location Based" results. You will need to enable them with the following env variables.   
-  
 Click on the article below to continue with the other configuration. Everything is explained step by step.
 
 {% page-ref page="environment-configuration.md" %}
 
 When you finish with the configuration we can go on the next step application usage.
 
-Learn how to use it. 
+Learn how to use it.
 
 {% page-ref page="../usage/getting-started.md" %}
-
-
 

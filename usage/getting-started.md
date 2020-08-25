@@ -4,41 +4,21 @@ description: Learn about the roles
 
 # Getting Started
 
-#### User roles <a id="41-user-roles"></a>
+## User roles <a id="41-user-roles"></a>
 
-QR Menu Maker supports four different roles for user account **admin**, **owner**, **client** and **driver**. One user account can't be all roles.
+QR Menu Maker supports two different roles for user account **admin** and **owner**. One user account can't be all roles.
 
 An **admin** is responsible for:
 
 * Manage users
-* Manage payment methods
-* Manage orders
+* Manage pricing plans
 * Manage restaurants
-* Manage clients
-* Manage drivers
 * Manage pages
-* Manage application-wide settings
-* Monitor application statistics
+* Manage application settings
 
 A **owner** can actually work with restaurant:
 
 * Manage own restaurant
-* Manage restaurant orders
 * Manage restaurant menu
-* Monitor own restaurant statistics
-
-A **client** can actually make orders:
-
-* Manage own orders
-* Manage own addresses
-
-A **driver** can actually deliver orders:
-
-* Manage own orders for delivering
-
-
-
-
-
-
+* Create QR design
 

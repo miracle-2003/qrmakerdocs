@@ -1,40 +1,24 @@
-# Payments
+# Pricing Plans
 
-At this moment QR Menu Maker comes with two methods to make payments: Pay cash on delivery, Pay via Stripe. To enable or disable this methods there are several variables that you will need to configure.
+QR Menu maker uses Paddle.com as payment process. It is supper easy to setup. 
 
-  
-By default the two methods are set to false and to enable you need to change them to true.  
-  
-**- Cash on Delivery**  
-`HIDE_CODE` change from **false** to **true** if you want to enable it. ****
+Go in Paddle.com and define your pricing plans. 
 
-```text
-HIDE_COD=false //Hide or Show Cash on Delivery payment
-```
+As admin, when you create the plan, you will have the option to set Paddle Plan id. 
 
- **- Stripe Gateway** 
-
-{% page-ref page="stripe-gateway.md" %}
-
-
-
-### Default payment method
-
-You can choose which payment method to be set by default. Choose one of the aliases.
-
-`cod` - Cash on delivery
-
-`stripe` - Stripe gateway
+In Paddle Developer - WebHooks set the following webhook to receive subscription notification
 
 ```text
-DEFAULT_PAYMENT="cod" //Default payment method - Cash On Delivery default cod|stripe
+https://yoursite.com/paddle
 ```
 
+{% embed url="https://vendors.paddle.com/alerts-webhooks" %}
 
 
-### **Payment currency**
 
-QR Menu Maker supports many currencies. By default is set to **usd** currency but you can change into one of the [available currencies](https://stripe.com/docs/currencies#presentment-currencies). 
+## **Payment currency**
+
+QR Menu Maker supports many currencies. By default is set to **usd** currency but you can change into one of the [available currencies](https://stripe.com/docs/currencies#presentment-currencies).
 
 ```text
 CASHIER_CURRENCY="usd" //usd,eur etc.

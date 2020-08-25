@@ -10,7 +10,7 @@ On the left menu select **Admin**.
 
 ![](../.gitbook/assets/screenshot.png)
 
-Click **Create Property**, ****select **Web** and then **Continue.**
+Click **Create Property**, **\*\*select** Web **and then** Continue.\*\*
 
 ![](../.gitbook/assets/screenshot%20%283%29.png)
 

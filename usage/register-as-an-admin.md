@@ -11,7 +11,3 @@ Click on the avatar, and go to your profile.
 
 Change both username and password.
 
-
-
-
-
