@@ -10,7 +10,7 @@ Open the source code in you favorite text/code editor. We suggest Visual Studio 
 
 ### Setup app.json
 
-By now you should have your foodtiger site to be up and running. 
+By now you should have your QR Menu Maker site to be up and running. 
 
 Open app.json file. Here change everything that relates as demo data.
 
@@ -18,7 +18,7 @@ Change this with your Site link. And change the currency.
 
 ```
 "extra":{
-      "server": "https://foodtiger.site",
+      "server": "https://QR Menu Maker.site",
       "currency":"$"
     },
 ```
@@ -55,7 +55,7 @@ To deploy to google play and app store, follow this guide.
 
 If you have any problem you can chat with us here
 
-{% embed url="https://help.mobidonia.com/\#foodtiger" %}
+{% embed url="https://help.mobidonia.com/\#QR Menu Maker" %}
 
 ### Demo
 

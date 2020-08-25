@@ -1,6 +1,6 @@
 # Payments
 
-At this moment FoodTiger comes with two methods to make payments: Pay cash on delivery, Pay via Stripe. To enable or disable this methods there are several variables that you will need to configure.
+At this moment QR Menu Maker comes with two methods to make payments: Pay cash on delivery, Pay via Stripe. To enable or disable this methods there are several variables that you will need to configure.
 
   
 By default the two methods are set to false and to enable you need to change them to true.  
@@ -34,7 +34,7 @@ DEFAULT_PAYMENT="cod" //Default payment method - Cash On Delivery default cod|st
 
 ### **Payment currency**
 
-FoodTiger supports many currencies. By default is set to **usd** currency but you can change into one of the [available currencies](https://stripe.com/docs/currencies#presentment-currencies). 
+QR Menu Maker supports many currencies. By default is set to **usd** currency but you can change into one of the [available currencies](https://stripe.com/docs/currencies#presentment-currencies). 
 
 ```text
 CASHIER_CURRENCY="usd" //usd,eur etc.

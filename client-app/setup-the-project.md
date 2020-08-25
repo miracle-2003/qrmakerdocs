@@ -9,7 +9,7 @@ Open the source code in you favorite text/code editor. We suggest [Visual Studio
 
 There you will find the file **config.js** 
 
-Replace the values with your real values, like the url link, desired currency. You should have the same values as in you .env file in FoodTiger web. 
+Replace the values with your real values, like the url link, desired currency. You should have the same values as in you .env file in QR Menu Maker web. 
 
 **Most important is to change**   
 **export.domain** - with your real domain  
@@ -17,7 +17,7 @@ Replace the values with your real values, like the url link, desired currency. Y
 \( we did this to protect your site \)
 
 ```
-exports.domain = "https://foodtiger.mobidonia.com/api";
+exports.domain = "https://QR Menu Maker.mobidonia.com/api";
 
 //Currency
 exports.currency="USD";

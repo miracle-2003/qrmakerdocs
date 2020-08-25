@@ -1,12 +1,12 @@
 ---
-description: Learn how to install FoodTiger
+description: Learn how to install QR Menu Maker
 ---
 
 # Installation on Shared Hosting
 
 ## Requirements
 
-FoodTiger is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install FoodTiger:
+QR Menu Maker is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install QR Menu Maker:
 
 * PHP Version: 7.1 or higher
 * MySQL Version: &gt;= 5.x
@@ -15,7 +15,7 @@ FoodTiger is a self-hosted web application written in PHP on top of the Laravel 
 
 ## Prepare to install
 
-Installing FoodTiger is very easy and you'll be able to install it without any coding knowledge. Installation process included three major steps:
+Installing QR Menu Maker is very easy and you'll be able to install it without any coding knowledge. Installation process included three major steps:
 
 1. **Creating domain or subdomain**
 2. **Creating database**
@@ -68,7 +68,7 @@ ex. mydomain.com or subdomain.mydomain.com
 
 You should be redirected to a screen like this one
 
-![](../.gitbook/assets/foodtiger-installer.png)
+![](../.gitbook/assets/QR Menu Maker-installer.png)
 
 Click on the "Check Requirements" If some requirements is missing it will be noted out.
 
@@ -106,7 +106,7 @@ APP_URL=Your website url goes here
 
 {% page-ref page="../define-basics/database.md" %}
 
-* **Disable/Enable demo data** It's suggested to disable adding demo data in the process of installation. There is option for deleting  manually this data after the installation but as we mentioned it's not required. You can check the demo data in our demo website [here](https://foodtiger.site/).   If you want to disable adding demo data the value of this variable will be **false** otherwise **true**.
+* **Disable/Enable demo data** It's suggested to disable adding demo data in the process of installation. There is option for deleting  manually this data after the installation but as we mentioned it's not required. You can check the demo data in our demo website [here](https://QR Menu Maker.site/).   If you want to disable adding demo data the value of this variable will be **false** otherwise **true**.
 
 ```text
 DEMO_DATA=true/false
@@ -120,7 +120,7 @@ Click on **Save and install**
 
 Now the install process will begin
 
-It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our [support chat](https://help.mobidonia.com/#foodtiger).
+It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our [support chat](https://help.mobidonia.com/#QR Menu Maker).
 
 If all goes okay, you can click on "Finish".
 

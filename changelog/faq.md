@@ -45,7 +45,7 @@ For example if you put APP\_ALLOW\_SELF\_DELIVER - restaurants can deliver order
 
 ## How does driver process works?
 
-Drivers are employees to the project owner. They are created by the admin. After they are created, admin can assign jobs / orders to them. They can do the work via the Web Version, but in order to have the location of order tracking, drivers will need to use the [Driver Companion App](https://codecanyon.net/item/driver-companion-app-for-foodtiger-delivery/26415042). 
+Drivers are employees to the project owner. They are created by the admin. After they are created, admin can assign jobs / orders to them. They can do the work via the Web Version, but in order to have the location of order tracking, drivers will need to use the [Driver Companion App](https://codecanyon.net/item/driver-companion-app-for-QR Menu Maker-delivery/26415042). 
 
 ## How is the restaurant notified for new orders?
 

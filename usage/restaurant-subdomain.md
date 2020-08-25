@@ -6,7 +6,7 @@ Most commonly used shared hosting framework is cPanel. So we will write our guid
 
 After you have your main domain or subdomain active, and your site is up and running, you can make each restaurant to have their own domain. Like in our demo. 
 
-The main site is [https://foodtiger.site/](https://foodtiger.site/) and there you can find all restaurants. But each restaurant can be also directly open for example: [https://malibudiner.foodtiger.site/](https://malibudiner.foodtiger.site/). This feature is directly enable in your foodtiger site. But you will need to create a wildcard subdomain that uses the same folder as your main site. 
+The main site is [https://QR Menu Maker.site/](https://QR Menu Maker.site/) and there you can find all restaurants. But each restaurant can be also directly open for example: [https://malibudiner.QR Menu Maker.site/](https://malibudiner.QR Menu Maker.site/). This feature is directly enable in your QR Menu Maker site. But you will need to create a wildcard subdomain that uses the same folder as your main site. 
 
 ![Click on Subdomain](../.gitbook/assets/subdomain.png)
 
@@ -18,7 +18,7 @@ The main site is [https://foodtiger.site/](https://foodtiger.site/) and there yo
 
 Each restaurant has automatically their own subdomain now. Open some restaurant in your site. Example:
 
-[https://foodtiger.site/restaurant/malibudiner](https://foodtiger.site/restaurant/malibudiner) --&gt;  [https://malibudiner.foodtiger.site](https://malibudiner.foodtiger.site/)
+[https://QR Menu Maker.site/restaurant/malibudiner](https://QR Menu Maker.site/restaurant/malibudiner) --&gt;  [https://malibudiner.QR Menu Maker.site](https://malibudiner.QR Menu Maker.site/)
 
 In this case the subdomain is **malibudiner**
 

@@ -1,11 +1,11 @@
 # Environment configuration
 
-All of the configuration variables for the FoodTiger project are stored in the **`.env`** file.
+All of the configuration variables for the QR Menu Maker project are stored in the **`.env`** file.
 
-FoodTiger installation, the root directory of your application will contain a **`.env.example`** file. You will need to rename it manually to **`.env`**
+QR Menu Maker installation, the root directory of your application will contain a **`.env.example`** file. You will need to rename it manually to **`.env`**
 
   
-List of all custom environment variables FoodTiger uses. We will see them one by one.
+List of all custom environment variables QR Menu Maker uses. We will see them one by one.
 
 {% hint style="info" %}
 Remove the comments // when you add some environment variable
@@ -59,7 +59,7 @@ IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 
 ### 12. Import from CSV
 
-FoodTiger also support integration and working with excel files. 
+QR Menu Maker also support integration and working with excel files. 
 
 {% page-ref page="../define-basics/import-from-csv.md" %}
 
@@ -86,7 +86,7 @@ APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
 * Option for adding/deleting demo data in your project
 
   
-  If you want to skip the adding the demo data that you will find on the [demo version](https://foodtiger.site/) you can make that with adding variable in the configuration.
+  If you want to skip the adding the demo data that you will find on the [demo version](https://QR Menu Maker.site/) you can make that with adding variable in the configuration.
 
 ```text
 DEMO_DATA=false //By default it's true, if false the data won't be added

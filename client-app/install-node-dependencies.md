@@ -12,7 +12,7 @@ This will install all the node modules required in order the project to work.
 
 
 
-If you face an error at this stage, please send us a [message](https://help.mobidonia.com/#foodtiger) with the following details
+If you face an error at this stage, please send us a [message](https://help.mobidonia.com/#QR Menu Maker) with the following details
 
 ```text
 Operating System:  MAC | Linux | Windows

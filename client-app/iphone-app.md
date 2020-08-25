@@ -102,7 +102,7 @@ All the process of submitting in details is explained here: [https://instabug.co
 
 If you face any problem, don't hesitate to let us know on our support chat. 
 
-{% embed url="https://help.mobidonia.com/\#foodtiger" %}
+{% embed url="https://help.mobidonia.com/\#QR Menu Maker" %}
 
 
 

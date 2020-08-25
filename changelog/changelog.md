@@ -95,7 +95,7 @@ Note that this is minor update, so you don't have to update **vendor** and **nod
 
 * [TOP REQUESTED](https://trello.com/c/xGpn3ju9): Alarm sound on new order - [Video](https://www.loom.com/share/296835747f7d43898a1c32e2d488e913)
 * Web Push notification on order  - Powered by [OneSignal](https://onesignal.com)
-* Customer Mobile app \( [separate project ](https://codecanyon.net/item/food-delivery-reactnative-foodtiger/26796029)\)
+* Customer Mobile app \( [separate project ](https://codecanyon.net/item/food-delivery-reactnative-QR Menu Maker/26796029)\)
 
 ### Changed 
 
@@ -134,10 +134,10 @@ You can check [here](https://mobidonia.gitbook.io/mresto/define-basics/google-ma
 
 ### Added
 
-* [TOP REQUESTED](https://trello.com/b/QqLlZCxM/foodtiger): Pickup option
-* [TOP REQUESTED](https://trello.com/b/QqLlZCxM/foodtiger): Restaurant closing and opening time
-* [TOP REQUESTED](https://trello.com/b/QqLlZCxM/foodtiger): Register restaurant on site, later approve it
-* [TOP REQUESTED:](https://trello.com/b/QqLlZCxM/foodtiger) Time slots on order
+* [TOP REQUESTED](https://trello.com/b/QqLlZCxM/QR Menu Maker): Pickup option
+* [TOP REQUESTED](https://trello.com/b/QqLlZCxM/QR Menu Maker): Restaurant closing and opening time
+* [TOP REQUESTED](https://trello.com/b/QqLlZCxM/QR Menu Maker): Register restaurant on site, later approve it
+* [TOP REQUESTED:](https://trello.com/b/QqLlZCxM/QR Menu Maker) Time slots on order
 * Set availability of items
 * Calculate static - fixed commission on the order
 * Calculate dynamic - percent based commission on the order

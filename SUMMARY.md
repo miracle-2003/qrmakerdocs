@@ -9,7 +9,7 @@
 
 ## Cloud 🔥🆕
 
-* [FoodTiger Cloud ☁️](cloud/foodtiger-cloud.md)
+* [QR Menu Maker Cloud ☁️](cloud/QR Menu Maker-cloud.md)
 
 ## Define Basics
 

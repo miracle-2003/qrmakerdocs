@@ -1,6 +1,6 @@
 # Environment variables
 
-List of all custom environment variables FoodTiger uses. - remove the comments // when you add some environment variable
+List of all custom environment variables QR Menu Maker uses. - remove the comments // when you add some environment variable
 
 ```text
 APP_LOCALE=en // en | fr | de | es

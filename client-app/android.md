@@ -89,7 +89,7 @@ The process of uploading the app to Google Play is perfectly explained here
 
 If you face any problem, don't hesitate to let us know on our support chat. 
 
-{% embed url="https://help.mobidonia.com/\#foodtiger" %}
+{% embed url="https://help.mobidonia.com/\#QR Menu Maker" %}
 
 
 

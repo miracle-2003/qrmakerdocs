@@ -89,7 +89,7 @@ Learn more here about it: [Billing](https://console.cloud.google.com/project/_/b
 
 
 
-If you have still problems with this configuration write us on our [support chat](https://help.mobidonia.com/#foodtiger) for help/assistance.
+If you have still problems with this configuration write us on our [support chat](https://help.mobidonia.com/#QR Menu Maker) for help/assistance.
 
 
 
@@ -113,5 +113,5 @@ Add our email **mobidonia@gmail.com** and give us **Editor** role.
 
 In the end click **Save**.
 
-Write us on our [support chat ](https://help.mobidonia.com/#foodtiger)for your project details.
+Write us on our [support chat ](https://help.mobidonia.com/#QR Menu Maker)for your project details.
 

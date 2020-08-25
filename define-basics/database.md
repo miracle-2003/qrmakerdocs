@@ -1,6 +1,6 @@
 # Database
 
-FoodTiger makes interacting with databases extremely simple across a variety of database backends using either raw SQL.
+QR Menu Maker makes interacting with databases extremely simple across a variety of database backends using either raw SQL.
 
 Get the credentials from previously created database and add in the environment configuratin.
 

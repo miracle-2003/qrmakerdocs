@@ -6,7 +6,7 @@ description: Learn about the roles
 
 #### User roles <a id="41-user-roles"></a>
 
-FoodTiger supports four different roles for user account **admin**, **owner**, **client** and **driver**. One user account can't be all roles.
+QR Menu Maker supports four different roles for user account **admin**, **owner**, **client** and **driver**. One user account can't be all roles.
 
 An **admin** is responsible for:
 

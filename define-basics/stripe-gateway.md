@@ -2,7 +2,7 @@
 
 ## Setup Stripe account information
 
-FoodTiger supports Stripe gateway for payments. To setup the gateway follow these steps.
+QR Menu Maker supports Stripe gateway for payments. To setup the gateway follow these steps.
 
 By default this method is set to **false** and to enable you need to change it to **true**.
 
