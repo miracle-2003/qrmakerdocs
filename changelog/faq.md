@@ -66,3 +66,29 @@ Click on the SQL command icon \( [Image](https://i.imgur.com/GXetB8K.png) \)
 
 In the text area enter the following sql command. After executing [THIS](https://gist.github.com/dimovdaniel/ebbaa2bb379e92bfc1e223b306ca1531) commands, only your admin user will remain in the database.
 
+## What are the benefits for different stakeholders. 
+
+### Benefits for project owner
+
+1. Start a subscription business in less than 10 min
+2. Robust solution with no additional monthly charges or any extra service need.
+3. No time need to run this business. It is completely automated and scalable. 
+4. Take advantage of this pandemic, and turn it into your favor. 
+
+### Benefits for restaurants
+
+1. Offer they guests clean and modern solution to see their menu. Regular print menus are touched with up to 100 hands per day 🦠. 
+2. Paper menu is getting ruined quickly. So they need to reprint. With QR Menu the qr card or sticker is protected and can last lot longer. 
+3. For any new dishes, using print menu, they need to reprint their menu, or introduce new sheet of paper in their menu. With QR Menu, they just go to the website and update the menu. 
+4. ECO friendly. I big restaurant menu = 1 tree 🌲. Yes, for real.
+5. Restaurants can share their menu online.  Based on [a research conducted by OpenTable](https://go.opentable.com/rs/531-AOS-877/images/OpenTableTechnologyAndDiningOut2015l.pdf), 86% of customers regularly check out menus online before they dine out. 
+
+### Benefits for clients
+
+1. Super clean solution. Using their phone, they just scan the QR, and they see the menu. No mobile app required. 
+2. They will not touch a thing that is being touched with 100 different hands in one day 🦠.
+3. No need to wait for waiter just to bring the menu. 
+4. Sometimes, on bigger tables, guests need to wait for other to read the menu, and then pass to them. No more, using their phones everyone can have the menu instantly. 
+5. According to a study, 20% of the print menu prices aren't up to date. With QR menu, they will always see up today prices and menu items. 
+6. They will be able to quickly see the correct item price. They are able to select different item variants and variant's extras.
+
