@@ -14,7 +14,7 @@ https://yoursite.com/paddle
 
 {% embed url="https://vendors.paddle.com/alerts-webhooks" %}
 
-
+You will also need to add paddleVendorID in .env file. You can use the .env editor to achieve this. paddleVendorID can be found in your Paddle Dashboard. 
 
 ## **Payment currency**
 
