@@ -13,12 +13,7 @@ In case, you have made any changes on the code, css or js file. Backup them firs
 ### 2. Backup this files and folder is case something goes wrong
 
 * [ ] public/uploads  \( you can zip it and move it somewhere \)
-
-#### Backup .env \( required to be backed up \)
-
-Login as admin, and there, go to the "ENV Editor" and select the "Backup" tab as displayed on the image. 
-
-![](../.gitbook/assets/backup.png)
+* [ ] .env \( Required  - Download it\)
 
 ### 3. Download the code from CodeCanyon and upload the zip
 
@@ -30,9 +25,7 @@ Extract the zip files. Overwriting old files.
 
 ### **5. Restore your .env file**
 
-Go once again in ENV editor, and in the backup tab, restore your .env file
-
-![](../.gitbook/assets/restore.png)
+Go once again in your file manager and upload your old .env file
 
 ### 6. After files are moved, open yourdomain.com/update
 
