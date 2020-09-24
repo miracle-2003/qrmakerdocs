@@ -12,19 +12,27 @@ In case, you have made any changes on the code, css or js file. Backup them firs
 
 ### 2. Backup this files and folder is case something goes wrong
 
-* [ ] .env
 * [ ] public/uploads  \( you can zip it and move it somewhere \)
 
-### 3. Download the code from CodeCanyon and extract it
+#### Backup .env \( required to be backed up \)
 
-### 4. Open your FTP client and connect to your shared hosting ftp
+Login as admin, and there, go to the "ENV Editor" and select the "Backup" tab as displayed on the image. 
 
-Almost all FTP client have the option to exclude some folder from transfer.  
-You need to exclude the folder **public/uploads** , **storage** and **node\_modules**
+![](../.gitbook/assets/backup.png)
 
-![](../.gitbook/assets/exclude.png)
+### 3. Download the code from CodeCanyon and upload the zip
 
-Then, select all files and folders and upload them. Confirm all replacements. If the update is from minor ex 1.1.1 to 1.1.2 then you don't have to select **vendor** folder. If it is 1.1 to 1.2 then you need to select vendor folder also.
+Download the code from CodeCanyon and directly upload it on your hosting, in the same place where your existing site is.
+
+### 4. Extract the zip file
+
+Extract the zip files. Overwriting old files.
+
+### **5. Restore your .env file**
+
+Go once again in ENV editor, and in the backup tab, restore your .env file
+
+![](../.gitbook/assets/restore.png)
 
 ### 5. After files are moved, open yourdomain.com/update
 
