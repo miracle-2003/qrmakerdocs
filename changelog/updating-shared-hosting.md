@@ -34,11 +34,11 @@ Go once again in ENV editor, and in the backup tab, restore your .env file
 
 ![](../.gitbook/assets/restore.png)
 
-### 5. After files are moved, open yourdomain.com/update
+### 6. After files are moved, open yourdomain.com/update
 
 Here, if there are migrations for the database to be done, will be run. If there is nothing to be done you will get 404 site.
 
-### 6. See the change log and Environment variables to see what new features are added and how to enable them.
+### 7. See the change log and Environment variables to see what new features are added and how to enable them.
 
 {% page-ref page="../docs/environment-configuration.md" %}
 
