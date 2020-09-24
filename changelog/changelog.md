@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.5.2 - 2020-09-24
+## 1.5.2 - 2020-09-24 \( [Video](https://youtu.be/gZ7WGhdOq5I) \)
 
 ### Fixes
 
