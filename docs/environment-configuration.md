@@ -44,8 +44,6 @@ IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 
 QR Menu Maker also support integration and working with excel files.
 
-{% page-ref page="../define-basics/import-from-csv.md" %}
-
 ### 10. Additional variables
 
 There are also few variables that for now only we will mentioned and later we will explain more about them.
