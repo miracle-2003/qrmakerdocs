@@ -22,3 +22,14 @@ A **owner** can actually work with restaurant:
 * Manage restaurant menu
 * Create QR design
 
+## Login as admin
+
+Login with
+
+U: admin@example.com  
+P: secret
+
+Click on the avatar, and go to your profile.
+
+Change both username and password.
+

@@ -16,6 +16,10 @@ https://yoursite.com/paddle
 
 You will also need to add paddleVendorID in .env file. You can use the .env editor to achieve this. paddleVendorID can be found in your Paddle Dashboard. 
 
+```text
+paddleVendorID="YOUR_PADDLE_VENDOR_ID"
+```
+
 ## **Payment currency**
 
 QR Menu Maker supports many currencies. By default is set to **usd** currency but you can change into one of the [available currencies](https://stripe.com/docs/currencies#presentment-currencies).
