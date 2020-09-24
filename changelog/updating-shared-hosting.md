@@ -6,6 +6,12 @@ description: >-
 
 # Updating - Shared hosting
 
+## Video Instruction
+
+{% embed url="https://www.youtube.com/watch?v=HQ-IwHLl9vE" %}
+
+
+
 ## 1. If you have made any changes on the code
 
 In case, you have made any changes on the code, css or js file. Backup them first so you don't lose your work. Download them or take a note what you have changed.
