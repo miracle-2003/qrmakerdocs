@@ -13,7 +13,7 @@ In case, you have made any changes on the code, css or js file. Backup them firs
 ### 2. Backup this files and folder is case something goes wrong
 
 * [ ] public/uploads  \( you can zip it and move it somewhere \)
-* [ ] .env \( Required  - Download it\)
+* [ ] .env \( **Required**  - Download it\)
 
 ### 3. Download the code from CodeCanyon and upload the zip
 
