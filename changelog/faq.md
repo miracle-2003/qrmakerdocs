@@ -4,6 +4,14 @@ description: Frequently Asked Questions (FAQs)
 
 # FAQ
 
+## Registration is not working.
+
+This is one of the most common problem. It happens because SMTP is not correctly set up, or not setup at all. To learn how to set it up, follow this guide
+
+{% page-ref page="../define-basics/obtain-smtp.md" %}
+
+
+
 ## How restaurants owner register?
 
 At the fronted part of the script you will find the form for  **Registration.** . The interested restaurants will fill the form, and Restaurant / owner account will be automatically created. Email will be send to them.
