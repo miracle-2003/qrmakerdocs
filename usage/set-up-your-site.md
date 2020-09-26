@@ -50,5 +50,7 @@ linkToTemplates="/impactfront/img/templates.zip"
 templates="/impactfront/img/menu_template_1.jpg,/impactfront/img/menu_template_2.jpg"
 ```
 
+## How to disable landing page
 
+In your .env editor add new variable DISABLE\_LANDING and set it to true. Then only the dashboard will be shown. In this case, best will be the project to be installed in subdomain. ex app.mydomain.com and on mydomain.com you to run your own site. It can be any Wordpress or HTML site. 
 
