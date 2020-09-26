@@ -118,6 +118,14 @@ Click on the article below to continue with the other configuration. Everything 
 
 {% page-ref page="environment-configuration.md" %}
 
+{% hint style="danger" %}
+Don't forget to do the SMTP setup. Without it, you will get error 500 on register.
+{% endhint %}
+
+Here is how to do it
+
+{% page-ref page="../define-basics/obtain-smtp.md" %}
+
 When you finish with the configuration we can go on the next step application usage.
 
 Learn how to use it.
