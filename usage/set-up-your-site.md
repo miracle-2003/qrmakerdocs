@@ -6,6 +6,8 @@
 2. Go to Settings-&gt;images
 3. Upload your favicon
 
+
+
 ## Change the project logo and default images
 
 Go to your project and login as admin.   
