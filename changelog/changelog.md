@@ -9,7 +9,7 @@
 * Removed more unnecessary fields in admin
 * Fixes on the  menu on mobile phone
 * Spelling mistakes corrected on landing
-* Removed 40 00+ Unnececery developer files
+* Removed 40 00+ Unnecessary developer files
 * Plan limit:  now prevent the user to add new items in the menu if the limit is reached
 
 ### How to update
