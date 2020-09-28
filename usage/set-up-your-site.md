@@ -2,19 +2,11 @@
 
 ## Change Favicon
 
-Since this is PWA app, the best way to change the favicon together with the icon used in the PWA app is to use the Real Favicon generator \( [https://realfavicongenerator.net/](https://realfavicongenerator.net/) \)
+1. Login as admin
+2. Go to Settings-&gt;images
+3. Upload your favicon
 
-Then upload your icon with at least 260x260 size.  PNG or JPG. 
-
-Then go over the listing, and make sure you icon looks good. You ca also enter app name there. 
-
-![](../.gitbook/assets/favicon%20%281%29.png)
-
-Next, download the Favicon package. This zip contains all the needed favicons for both the site and the PWA. 
-
-You can upload the zip, and extract in the **public** folder. Or Export locally and upload the files in the public folder.
-
-## Change project logo and default images
+## Change the project logo and default images
 
 Go to your project and login as admin.   
 In the settings page, you will be able to change the project logo and the default images for the menu items and the cover image in the restaurant menu. 
