@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.5.3 - 2020-09-29
+
+### Improvements
+
+* One-Click update button 
+* Favicon change setup from admin settings
+* Removed more unnecessary fields in admin
+* Fixes on the  menu on mobile phone
+* Spelling mistakes corrected on landing
+* Removed 40 00+ Unnececery developer files
+* Plan limit:  now prevent the user to add new items in the menu if the limit is reached
+
+### How to update
+
+Follow the standard update procedure
+
+{% page-ref page="updating-shared-hosting.md" %}
+
+From this version on, when there is a new update, log in as admin, and you will see a blue card on left, indicating that there is an update you can apply. 
+
+{% hint style="warning" %}
+This update brings updates on the landing page. if you have modified, you may want to back it before updating. 
+{% endhint %}
+
+
+
 ## 1.5.2 - 2020-09-24 \( [Video](https://youtu.be/gZ7WGhdOq5I) \)
 
 ### Fixes
