@@ -14,7 +14,9 @@ https://yoursite.com/paddle
 
 {% embed url="https://vendors.paddle.com/alerts-webhooks" %}
 
-You will also need to add paddleVendorID in .env file. You can use the .env editor to achieve this. paddleVendorID can be found in your Paddle Dashboard. 
+You will also need to add paddleVendorID in .env file. You can use the .env editor to achieve this. paddleVendorID can be found in your Paddle Developer Tools -&gt; Authentication. 
+
+[https://vendors.paddle.com/authentication](https://vendors.paddle.com/authentication)
 
 ```text
 paddleVendorID="YOUR_PADDLE_VENDOR_ID"
