@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.5.4 - 2020-09-29 \( test update \)
+
+{% hint style="info" %}
+This is the first incremental update that can be done via the 1Click Update button.   
+If you receive an error like HOME ACTION NOT ALLOWED it is because you are logged in as admin, but the admin ID is not 1.  Open config/laraupdater.php and at the bottom modify the variable allow\_users\_id to have the admin ID, or set to false to accept all admins. 
+{% endhint %}
+
+### **Fixes**
+
+* Paddle vendor id correct setup
+
 ## 1.5.3 - 2020-09-29
 
 ### Improvements
