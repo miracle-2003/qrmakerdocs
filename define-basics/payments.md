@@ -19,7 +19,7 @@ You will also need to add paddleVendorID in .env file. You can use the .env edit
 [https://vendors.paddle.com/authentication](https://vendors.paddle.com/authentication)
 
 ```text
-paddleVendorID="YOUR_PADDLE_VENDOR_ID"
+paddleVendorID=YOUR_PADDLE_VENDOR_ID
 ```
 
 ## **Payment currency**
