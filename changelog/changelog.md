@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.5.5 - 2020-09-30
+
+### Improvements
+
+* Custom CSS and JS for frontend and backed set from the admin
+* Landing page into separate files for easier update
+* Gravatar image corrections
+
+### How to update
+
+Just log in as admin, and you should see "New Update 1.5.5". Click on the button. 
+
+{% hint style="warning" %}
+This update will change your landing page. But your landing.blade.php file is not modified. Landing now uses home.blade.php and uses separate files to show content. We did this for easier future updates.   
+  
+The content of the landing page is now in resources/views/qrsaas/partials  
+  
+To show your old landing, just add .env variable  
+QR\_LANDING=landing
+{% endhint %}
+
 ## 1.5.4 - 2020-09-29 \( test update \)
 
 {% hint style="info" %}
