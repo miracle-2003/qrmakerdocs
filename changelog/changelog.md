@@ -4,7 +4,7 @@
 
 ### Improvements
 
-* System status and better error handling
+* System setup status and better error handling
 * Translation management
 * Custom CSS and JS for frontend and backed set from the admin
 * Landing page into separate files for easier update
