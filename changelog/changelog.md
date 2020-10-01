@@ -10,7 +10,7 @@
 * Landing page into separate files for easier update
 * Gravatar image corrections
 
-### How to update
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
 Just log in as admin, and you should see "New Update 1.5.5". Click on the button. 
 
