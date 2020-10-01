@@ -4,6 +4,8 @@
 
 ### Improvements
 
+* System status and better error handling
+* Translation management
 * Custom CSS and JS for frontend and backed set from the admin
 * Landing page into separate files for easier update
 * Gravatar image corrections
@@ -19,6 +21,10 @@ The content of the landing page is now in resources/views/qrsaas/partials
   
 To show your old landing, just add .env variable  
 QR\_LANDING=landing
+
+To modify the list of available language add new .env variable
+
+LANGUAGES={ "EN":"English","FR":"French"}
 {% endhint %}
 
 ## 1.5.4 - 2020-09-29 \( test update \)
