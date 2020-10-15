@@ -86,3 +86,30 @@ In the text area enter the following sql command. After executing [THIS](https:/
 5. According to a study, 20% of the print menu prices aren't up to date. With QR menu, they will always see up today prices and menu items. 
 6. They will be able to quickly see the correct item price. They are able to select different item variants and variant's extras.
 
+## Common problems
+
+### Error on update
+
+**Problem**: After an update, some users experience error 503 \| Service not found.
+
+**Cause**: This mostly happens because your PHP setup doesn't have the ZIP extension enabled. 
+
+**Solution**: 
+
+First, we need to get the site back to an active state. To do that, just delete 
+
+public\_html/**storage/framework/down**
+
+Now, visit your site, should, be active again, but still on the old version. 
+
+  
+Next, you will need to enable the ZIP extension 
+
+This is the best and simplest guide we could find on how to enable the ZIP extension in cPanel
+
+{% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" %}
+
+Also, please talk with your hosting provider on how to enable the zip extension for you.
+
+
+
