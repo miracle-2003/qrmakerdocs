@@ -1,5 +1,46 @@
 # Changelog
 
+## 1.5.8 - 2020-10-16
+
+This is a combined update from 1.5.6 \| 1.5.7 and 1.5.8
+
+### Improvements
+
+* Recapthca added
+* Better Favicon generation
+* Better frontend language manager
+* Limit plan fix
+* Better URL route for restaurant edit
+* Other small bug fixes
+
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
+
+Just log in as admin, and you should see "New Update 1.5.5". Click on the button. 
+
+
+
+{% hint style="success" %}
+This update changes the config for the frontend languages
+
+To modify the list of available language add new .env variable
+
+FRONT\_LANGUAGES=EN,English,FR,French
+{% endhint %}
+
+{% hint style="success" %}
+In this update we introduced the Google Recaptcha.   
+We are using this [plugin](https://laravel-recaptcha-docs.biscolab.com/docs/intro) for Laravel. And we have implemented the invisible recaptcha.  
+  
+To enable it on the registration form,  you have to create your own API keys [here](https://www.google.com/recaptcha/admin).  
+reCAPTCHA type:**v2 Invisible**  
+  
+Then you need to enter thous keys in .env  
+  
+in your .env file
+
+RECAPTCHA\_SITE\_KEY=YOUR\_API\_SITE\_KEY RECAPTCHA\_SECRET\_KEY=YOUR\_API\_SECRET\_KEY
+{% endhint %}
+
 ## 1.5.5 - 2020-09-30
 
 ### Improvements
