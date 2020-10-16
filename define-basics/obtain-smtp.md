@@ -52,7 +52,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 MAIL_DRIVER=smtp
 MAIL_ENCRYPTION=''
-MAIL_PORT=26
+MAIL_PORT=587
 MAIL_HOST=mail.restoqr.online
 MAIL_USERNAME=themail@domain.com
 MAIL_PASSWORD=*****
