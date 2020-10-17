@@ -1,12 +1,12 @@
 # Changelog
 
-## 1.5.8 - 2020-10-16
+## 1.5.8 - 2020-10-17
 
 This is a combined update from 1.5.6 \| 1.5.7 and 1.5.8
 
 ### Improvements
 
-* Recapthca added
+* Google ReCaptcha added
 * Better Favicon generation
 * Better frontend language manager
 * Limit plan fix
