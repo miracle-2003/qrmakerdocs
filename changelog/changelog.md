@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.7.3 - 2020-10-28
+
+This is combined update from 1.5.8 till 1.7.3
+
+### Improvements
+
+* Tables and area management
+* Local order \( Continuous orders and online card payments \)
+* Orders \| Report and live orders
+* Customer log
+* Subscribe via stripe
+* Manually assign restaurant to pricing plan
+
 ## 1.5.8 - 2020-10-17
 
 This is a combined update from 1.5.6 \| 1.5.7 and 1.5.8
