@@ -45,13 +45,22 @@ GOOGLE_MAPS_API_KEY="" //API KEY
 **IMPORTANT:** Please make sure that everything is working okay \(showing maps and adding new client address in order checkout page\).  
 {% endhint %}
 
+  
+1. **Change application restrictions**   
+  
+Depending on your server/domain configuration the script maybe won't accept the **HTTP referrers** restrictions so try with changing the application restrictions back to **None** 
 
+
+
+### 1. **Change application restrictions** 
+
+###  ****Depending on your server/domain configuration the script maybe won't accept the **HTTP referrers** restrictions so try with changing the application restrictions back to **None**  
 
 ### **Change application restrictions**
 
-Depending on your server/domain configuration the script maybe won't accept the **HTTP referrers** restrictions so try with changing the application restrictions back to **None** 
+### **2. Enable Billing on your project**
 
-![](../.gitbook/assets/screenshot-1-%20%282%29.png)
+Depending on your server/domain configuration the script maybe won't accept the **HTTP referrers** restrictions so try with changing the application restrictions back to **None** 
 
 ### **Enable Billing on your project**
 
