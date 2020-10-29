@@ -69,7 +69,10 @@ IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 
 ### 9. Import from CSV
 
-QR Menu Maker also supports integration and working with excel files.
+QR Menu Maker also supports integration and working with excel files.  
+
+
+{% page-ref page="../define-basics/import-from-csv.md" %}
 
 ### 10. Additional variables
 
