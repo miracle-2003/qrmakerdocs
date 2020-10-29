@@ -1,6 +1,8 @@
 # Changelog
 
-## 1.7.3 - 2020-10-28
+## 1.7.3 - 2020-10-28 
+
+{% embed url="https://www.loom.com/share/15cc92bffca0416da783972f55bbce79" %}
 
 This is combined update from 1.5.8 till 1.7.3
 
@@ -12,6 +14,25 @@ This is combined update from 1.5.8 till 1.7.3
 * Customer log
 * Subscribe via stripe
 * Manually assign restaurant to pricing plan
+
+{% hint style="info" %}
+This update introduces Stripe as default way for accepting subscriptions. To enable it, you need to register stripe account, and create product in it. When you create the pricing plans, you will need to enter Stripe pricing\_id for each plan.   
+  
+New variables in .env  
+  
+ENABLE\_STRIPE\_CONNECT=true   
+ENABLE\_FINANCES\_OWNER=true  
+ENABLE\_FINANCES\_ADMIN=true  
+ENABLE\_STRIPE=true  
+STRIPE\_KEY='pk\_test\_XXXXXXXXXXXXXX'  
+STRIPE\_SECRET='sk\_test\_XXXXXXXXXXXXXXX',  
+SUBSCRIPTION\_PROCESSOR=Stripe  
+QRSAAS\_DISABLE\_ODERING=false
+{% endhint %}
+
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
+
+Just log in as admin, and you should see "New Update 1.7.3. Click on the button. 
 
 ## 1.5.8 - 2020-10-17
 
