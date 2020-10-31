@@ -16,6 +16,7 @@
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google Map API](define-basics/google-map-api.md)
 * [Import from CSV](define-basics/import-from-csv.md)
+* [Pay with card](define-basics/pay-with-card.md)
 
 ## Usage
 
