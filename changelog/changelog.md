@@ -11,6 +11,7 @@
 * Stripe system status check
 * REcaptcha fix
 * Plan removing fixes
+* Fixes for managing options and variants
 
 
 
