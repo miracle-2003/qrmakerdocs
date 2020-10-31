@@ -4,7 +4,7 @@
 
 ### Improvements
 
-* Change images via settings
+* Change landing page images via settings
 
 ### Fixes
 
