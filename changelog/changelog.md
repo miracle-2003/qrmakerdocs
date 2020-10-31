@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.7.7 - 2020-11-01
+
+### Improvements
+
+* Change images via settings
+
+### Fixes
+
+* Stripe system status check
+* REcaptcha fix
+* Plan removing fixes
+
+
+
 ## 1.7.3 - 2020-10-28 
 
 {% embed url="https://www.loom.com/share/15cc92bffca0416da783972f55bbce79" %}
