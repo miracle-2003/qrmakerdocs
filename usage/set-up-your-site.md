@@ -25,10 +25,15 @@ If you want to change the layout, ex, include some CSS for the email you can edi
 
 ## **Change the content of the front page**
 
-The landing page is single page. And also all the content is placed in single file.   
-To edit your landing page open **resources/views/qrsaas/plan.blade.php**
 
-This is a blade file, combination of laravel directives, and standard php and html.
+
+The landing page code is located in **resources/views/qrsaas.** If you want to do structural changes you can edit those files there. In our updates, we try not to change these files as much as possible. But for just in case, make a backup of them when you have done your changes.
+
+If you want to change the css, the best way to do that will be throught the option to add custom CSS inside Admin-&gt;Setting-&gt;CSS and JS. There you can define your own CSS and JS, so if we have an update on our CSS or JS doesn't discard your changes. 
+
+To modify the images, you can do that from Admin-&gt;Settings-&gt;Images.
+
+To change the text, you can do that via Translation at the moment. We are working on iline edit on the front page that will be relased soon.
 
 ## Add more download print templates / change existing
 
