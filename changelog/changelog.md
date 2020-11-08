@@ -1,8 +1,22 @@
 # Changelog
 
+## 1.7.8 - 2020-11-08
+
+### Improvements
+
+* Dine-in / Takeaway when making an order
+* Option to not offer a free plan \( set FREE\_PLAN\_ID to 0 \)
+* Images for a menu item, are no longer required
+* Fixes on working with the variants
+* Fixes on registering customer visit by the customer
+
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
+
+Just log in as admin, and you should see "New Update 1.7.8. Click on the button. 
+
 ## 1.7.7 - 2020-11-01
 
-This is combined update from 1.7.3 till 1.7.7
+This is a combined update from 1.7.3 till 1.7.7
 
 ### Improvements
 
