@@ -9,6 +9,7 @@
 * Images for a menu item, are no longer required
 * Fixes on working with the variants
 * Fixes on registering customer visit by the customer
+* Deactivated restaurant, no longer accessible
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
