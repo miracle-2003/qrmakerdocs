@@ -96,14 +96,7 @@ In the text area enter the following sql command. After executing [THIS](https:/
 
 **Solution**: 
 
-First, we need to get the site back to an active state. To do that, just delete 
-
-public\_html/**storage/framework/down**
-
-Now, visit your site, should, be active again, but still on the old version. 
-
-  
-Next, you will need to enable the ZIP extension 
+You will need to enable the ZIP extension 
 
 This is the best and simplest guide we could find on how to enable the ZIP extension in cPanel
 
