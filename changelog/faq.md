@@ -104,5 +104,30 @@ This is the best and simplest guide we could find on how to enable the ZIP exten
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
 
+## Error 500
+
+**Problem**  
+You get a white screen with Error 500 on it 
+
+**Reason**  
+This is a general error, meaning something wrong happened in the system. And it can be from different causes. it can be a bug or misconfiguration. 
+
+**Solution**  
+First, we need to see why this error happens,   
+Enable debug mode, so you can see what is behind the 500 error. To do that
+
+1. Login as admin
+2. Go In **Setting**
+3. Select **Settup** tab
+4. Select **APP\_DEBUG**
+
+Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct. 
+
+For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/\#qrsaas](https://help.mobidonia.com/#qrsaas)
+
+
+
+
+
 
 
