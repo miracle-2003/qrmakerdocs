@@ -10,9 +10,10 @@
 * Options to disable Guest log
 * Option to edit categories name in the menu
 * Delete demo data button added
-* Optino to completly delete restaurant
+* Optin to completly delete restaurant
 * Bugfix: When selecting variants, $ is US$
 * Bugfix: Wildcard domain QR make
+* Option to change required characters in a phone number
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
