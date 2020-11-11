@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.7.9 - 2020-11-12
+
+### Improvements
+
+* Inline editing on the front page
+* Customer can see orders they have made
+* Remove Project branding from the restaurant menu page
+* Options to disable Guest log
+* Option to edit categories name in the menu
+* Delete demo data button added
+* Optino to completly delete restaurant
+* Bugfix: When selecting variants, $ is US$
+* Bugfix: Wildcard domain QR make
+
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
+
+Just log in as admin, and you should see "New Update 1.7.8. Click on the button. 
+
 ## 1.7.8 - 2020-11-08
 
 ### Improvements
