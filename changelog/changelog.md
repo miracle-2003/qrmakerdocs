@@ -10,7 +10,7 @@
 * Options to disable Guest log
 * Option to edit categories name in the menu
 * Delete demo data button added
-* Optin to completly delete restaurant
+* Optin to completely delete restaurant
 * Bugfix: When selecting variants, $ is US$
 * Bugfix: Wildcard domain QR make
 * Option to change required characters in a phone number
