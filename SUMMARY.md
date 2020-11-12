@@ -23,6 +23,7 @@
 * [Getting Started](usage/getting-started.md)
 * [Set up your site](usage/set-up-your-site.md)
 * [Restaurant subdomain](usage/restaurant-subdomain.md)
+* [Translations](usage/translations.md)
 
 ## Changelog
 
