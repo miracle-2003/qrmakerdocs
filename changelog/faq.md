@@ -128,14 +128,14 @@ For some other reported errors, don't hesitate to contact us with a screenshot o
 ## SQL Error - Table not found
 
 **Error**   
-After installation, when you open your site, you see an error screen with report similar to this
+After installation, when you open your site, you see an error screen with a report similar to this.
 
 ```text
 local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'plan.plan_id' 
 ```
 
 **Reason**  
-The most common problem for this is because you have entered the wrong credentials/user/pass for the Database and the setup of the database was incompleat. 
+The most common problem for this is because you have entered the wrong credentials/user/pass for the Database and the setup of the database was incomplete. 
 
 **Solution**
 
@@ -143,7 +143,7 @@ The most common problem for this is because you have entered the wrong credentia
 2. Remove file storage/installed
 3. Try to install again by visiting yourdomain.com/install
 
-If that doens't help, please create a ticket, and if you can share cPanel / Admin details with us so we can look into the problem. 
+If that doesn't help, please create a ticket, and if you can share cPanel / Admin details with us so we can look into the problem. 
 
 
 
