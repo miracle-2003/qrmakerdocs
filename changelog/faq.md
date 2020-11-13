@@ -125,6 +125,30 @@ Then try to reproduce the problem. Now, you will see a lot more information abou
 
 For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/\#qrsaas](https://help.mobidonia.com/#qrsaas)
 
+## SQL Error - Table not found
+
+**Error**   
+After installation, when you open your site, you see an error screen with report similar to this
+
+```text
+local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'plan.plan_id' 
+```
+
+**Reason**  
+The most common problem for this is because you have entered the wrong credentials/user/pass for the Database and the setup of the database was incompleat. 
+
+**Solution**
+
+1. Open the file **.env** and make sure you have entered the correct  DB data
+2. Remove file storage/installed
+3. Try to install again by visiting yourdomain.com/install
+
+If that doens't help, please create a ticket, and if you can share cPanel / Admin details with us so we can look into the problem. 
+
+
+
+
+
 
 
 
