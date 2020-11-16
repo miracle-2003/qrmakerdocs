@@ -2,13 +2,17 @@
 
 ## Subscription processors
 
-At thee moment we have 2 subscription processors. Stripe and Paddle.com
+At the moment we have 2 subscription processors. Stripe and Paddle.com
 
 You can manage the settings for them if you login as admin and then to got Settings-&gt; Finances. 
 
 ### Stripe
 
-Just create account in stripe and fill you stripe credentials in  Settings-&gt; Finances.
+Just create an account in stripe and fill your stripe credentials in  Settings-&gt; Finances.
+
+One common mistake is to use plan\_id instead of price\_id. So you should use the price\_id from Stripe. As you can see in the image.
+
+![](../.gitbook/assets/plans.png)
 
 ### Paddle 
 
