@@ -8,29 +8,29 @@ description: Learn how to install QR Menu Maker
 
 QR Menu Maker is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install QR Menu Maker:
 
-* PHP Version: 7.1 or higher
+* PHP Version: 7.3+
 * MySQL Version: &gt;= 5.x
 * Application server: Apache, Nginx
 * IMPORTANT: The script can't be installed in subfolder. Only directly in domain or subdomain.
 
 ## Prepare to install
 
-Installing QR Menu Maker is very easy and you'll be able to install it without any coding knowledge. Installation process included three major steps:
+Installing QR Menu Maker is very easy and you'll be able to install it without any coding knowledge. The installation process included three major steps:
 
 1. **Creating domain or subdomain**
 2. **Creating database**
 3. **Uploading script files to the host**
 4. **Creating environment configuration**
 
-**Now bellow you can watch the video installation tutorial or you can continue with step by step.**
+**Now below you can watch the video installation tutorial or you can continue with step by step.**
 
 {% hint style="info" %}
-**Warning:** Video installation tutorial doesn't include environment explanation. You can check that in the steps below.
+**Warning:** The video installation tutorial doesn't include an environment explanation. You can check that in the steps below.
 {% endhint %}
 
 ### Installation on Shared Hosting
 
-Plesk / cPanel and other hosting managers are recommended. In this guide we will use Plesk but similar should be for other.
+Plesk / cPanel and other hosting managers are recommended. In this guide, we will use Plesk but similar should be for others.
 
 #### 1. Create your domain or subdomain in your shared hosting
 
@@ -64,7 +64,7 @@ Now let's check folder permissions. If some folder is noted as not writable, ple
 
 ![](../.gitbook/assets/permissions.png)
 
-Now we need to setup the environment. This tells Laravel how to work.
+Now we need to set up the environment. This tells Laravel how to work.
 
 ![](../.gitbook/assets/classic.png)
 
@@ -75,7 +75,7 @@ Select the classic text editor.
 **5. Environment Configuration**
 
 {% hint style="info" %}
-**Note:** This configuration requires many steps so we will explain this more detailed.
+**Note:** This configuration requires many steps so we will explain this more detail.
 {% endhint %}
 
 As we already mentioned environment configuration requires many steps but just for the beginning we will need only several configurations:
@@ -92,11 +92,7 @@ APP_URL=Your website url goes here
 
 {% page-ref page="../define-basics/database.md" %}
 
-* **Disable/Enable demo data** It's suggested to disable adding demo data in the process of installation. There is option for deleting  manually this data after the installation but as we mentioned it's not required. You can check the demo data in our demo website [here](https://QR%20Menu%20Maker.site/).   If you want to disable adding demo data the value of this variable will be **false** otherwise **true**.
-
-```text
-DEMO_DATA=true/false
-```
+\*\*\*\*
 
 When you finish with this configuration don't forget to save the .env file.
 
@@ -106,7 +102,7 @@ Click on **Save and install**
 
 Now the install process will begin
 
-It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our [support chat](https://help.mobidonia.com/#QR%20Menu%20Maker).
+It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take a screenshot from it. Send to our [support chat](https://help.mobidonia.com/#QR%20Menu%20Maker).
 
 If all goes okay, you can click on "Finish".
 
