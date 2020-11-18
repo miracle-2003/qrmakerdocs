@@ -51,3 +51,5 @@ templates="/impactfront/img/menu_template_1.jpg,/impactfront/img/menu_template_2
 
 In your .env editor add new variable DISABLE\_LANDING and set it to true. Then only the dashboard will be shown. In this case, best will be the project to be installed in the subdomain. ex app.mydomain.com and on mydomain.com you to run your own site. It can be any Wordpress or HTML site. 
 
+
+
