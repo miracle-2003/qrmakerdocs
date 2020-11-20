@@ -147,6 +147,35 @@ If that doesn't help, please create a ticket, and if you can share cPanel / Admi
 
 
 
+## Error on uploading an image 
+
+**Error**
+
+"PHP Fileinfo extension must be installed
+
+**Reason**  
+ "PHP Fileinfo extension must be installed/enabled to use Intervention Image."
+
+The project needs the [fileinfo](https://i.stack.imgur.com/vhN3E.png) extension. 
+
+**Solution**
+
+As you can see on the [image](https://i.stack.imgur.com/vhN3E.png), it can be enabled from PHP Selector. But if there is no  PHP Selector you should have access to **WHM**.
+
+**IN WHM**
+
+Initially, we login to WHM and navigate as follows,
+
+Software &gt;&gt; EasyApache 4 &gt;&gt; Customize &gt;&gt; PHP extensions.
+
+Here we search for **fileinfo** and enable phpx.x-php-fileinfo for all versions. Finally, we click on Review and Provision.
+
+This enables the file extension for all the PHP websites in the server.
+
+Let me know about this.
+
+
+
 
 
 
