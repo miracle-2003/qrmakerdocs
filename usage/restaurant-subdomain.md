@@ -39,8 +39,7 @@ The main site is  [https://zebra-qr.com/](https://zebra-qr.com/)  and there you 
 
 Each restaurant has automatically their own subdomain now. Open some restaurants on your site. Example:
 
-[https://zebra-qr.com/restaurant/malibudiner](https://zebra-qr.com/restaurant/malibudiner)--&gt;   
-[https://malibudiner.zebra-qr.com/](https://malibudiner.zebra-qr.com/)
+[https://zebra-qr.com/restaurant/malibudiner](https://zebra-qr.com/restaurant/malibudiner)  --&gt; [ https://malibudiner.zebra-qr.com/](https://malibudiner.zebra-qr.com/)
 
 In this case, the subdomain is **malibudiner**
 
