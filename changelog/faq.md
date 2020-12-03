@@ -174,6 +174,26 @@ This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
 
+## Error after install
+
+**Error**
+
+You are redirected to yourdomain.com/install
+
+**Reason**
+
+You have entered the wrong database connection settings. 
+
+**Solution**
+
+Open file manager  
+
+Remove the file storage/installed
+
+Visit your site again, and make sure database data is correct. 
+
+
+
 
 
 
