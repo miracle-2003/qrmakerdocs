@@ -1,5 +1,38 @@
 # Changelog
 
+## 1.8.0 - 05-12-2020
+
+New
+
+* Call Waiter button
+* PayPal subscriptions
+* PayPal payments
+* PayStack subscriptions
+* Mollie payments
+* XML Sitemaps
+* Close account and get all data in json
+* Easy Share on web and QR
+
+Improvements
+
+* Dark / Light logo
+* Better ordering flow
+* The correct menu is shown based on settings
+* The phone number on takeaway order
+* Password field was prepopulated
+* Better settings screen
+
+Fixes
+
+* Saving env adds new lines
+* Language link doesn't work
+* PayStack fixed
+* Language selector on landing not showing selected language
+* Deleting customer log entry results in an error
+* 2 Emails where send to the restaurant on register
+
+
+
 ## 1.7.9 - 2020-11-12
 
 ### Improvements
