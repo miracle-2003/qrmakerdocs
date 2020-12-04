@@ -2,7 +2,7 @@
 
 ## 1.8.0 - 2020-12-05
 
-New
+### **New**
 
 * Call Waiter button
 * PayPal subscriptions
@@ -13,7 +13,7 @@ New
 * Close account and get all data in json
 * Easy Share on web and QR
 
-Improvements
+### **Improvements**
 
 * Dark / Light logo
 * Better ordering flow
@@ -21,8 +21,9 @@ Improvements
 * The phone number on takeaway order
 * Password field was prepopulated
 * Better settings screen
+* EPS, PSD, JPEG, SKETCH files for the templates \( only from download from CodeCanyon \)
 
-Fixes
+### **Fixes**
 
 * Saving env adds new lines
 * Language link doesn't work
@@ -30,6 +31,10 @@ Fixes
 * Language selector on landing not showing selected language
 * Deleting customer log entry results in an error
 * 2 Emails where send to the restaurant on register
+
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
+
+Just log in as admin, and you should see "New Update 1.8.0. Click on the button. 
 
 
 
@@ -50,7 +55,7 @@ Fixes
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.7.8. Click on the button. 
+Just log in as admin, and you should see "New Update 1.7.9. Click on the button. 
 
 ## 1.7.8 - 2020-11-08
 
