@@ -6,7 +6,7 @@ description: Real time notifications
 
 ## Pusher account information
 
-From the version 1.8.0 we support for sending real time notifications for new orders and call waiter option. To setup the plugin follow these steps:
+From the version 1.8.0 we support Pusher for sending real time notifications for new orders and call waiter option. To setup the plugin follow these steps:
 
 Visit [Pusher](https://pusher.com/) official site. Create new account or login with existing one.
 
