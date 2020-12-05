@@ -15,6 +15,7 @@
 * [Pricing Plans](define-basics/payments.md)
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google Map API](define-basics/google-map-api.md)
+* [Pusher](define-basics/pusher.md)
 * [Import from CSV](define-basics/import-from-csv.md)
 * [Pay with card](define-basics/pay-with-card.md)
 
