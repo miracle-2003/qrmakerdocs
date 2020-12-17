@@ -30,6 +30,7 @@
 * [Restaurant subdomain](usage/restaurant-subdomain.md)
 * [Translations](usage/translations.md)
 * [Custom CSS](usage/custom-css.md)
+* [Call Waiter](usage/call-waiter.md)
 
 ## Changelog
 
