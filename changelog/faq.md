@@ -192,9 +192,24 @@ Remove the file storage/installed
 
 Visit your site again, and make sure database data is correct. 
 
+## Error after update 1.9.7
 
+  
+After the version 1.9.7 there is error on opening order details page.  
+  
+To resolve this issue until the version 2.0 you will need to make these changes.  
+  
+Find the files in these two locations **resources/views/orders/index.blade.php** and **resources/views/orders/partials/modals.blade.php**
 
+Copy the code from the modified files and replace the files in your project.
 
+{% file src="../.gitbook/assets/index.blade.php" caption="index.blade.php" %}
+
+{% file src="../.gitbook/assets/modals.blade.php" caption="modals.blade.php" %}
+
+After these changes the issue should be resolved.  
+  
+Stay tuned for the version 2.0 :\)
 
 
 
