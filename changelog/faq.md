@@ -194,6 +194,8 @@ Visit your site again, and make sure database data is correct.
 
 ## Error after update 1.9.7
 
+1. **Error on orders details page.**
+
   
 After the version 1.9.7 there is error on opening order details page.  
   
@@ -207,7 +209,28 @@ Copy the code from the modified files and replace the files in your project.
 
 {% file src="../.gitbook/assets/modals.blade.php" caption="modals.blade.php" %}
 
-After these changes the issue should be resolved.  
+After these changes the issue should be resolved.
+
+
+
+    2. **Error or delivery area map.**
+
+To resolve this issue until the version 2.0 you will need to make this change.
+
+Find the files in the location resources/views/restorants/edit.blade.php
+
+Find the line 149 and change the code from this
+
+```text
+changeDeliveryArea(pagetLatLngFromPoly(path))
+```
+
+to this
+
+```text
+ changeDeliveryArea(getLatLngFromPoly(path))
+```
+
   
 Stay tuned for the version 2.0 :\)
 
