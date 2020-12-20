@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.9.7 - 2020-12-17 
+
+This is a combined update from 1.8.0 to 1.9.7
+
+### Fixes
+
+* Variant selection bug fix
+* Call waiter pop-up select not showing fixed
+* Plus button in the cart was not showing on mobile
+* Updated menus privileges on the front end
+* Delete user when an admin deletes restaurant
+* Duplicate email send 
+* Admin order accepting 
+* Checkbox when placing an order to accept T&S
+* Sound on pusher notification
+* Category delete when there are no items
+* Thank you page after successful payment
+* Fixes for Paystack
+
+### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
+
+Just log in as admin, and you should see "New Update 1.9.X. Click on the button. 
+
+
+
 ## 1.8.0 - 2020-12-05
 
 ### **New**
@@ -97,7 +122,7 @@ Just log in as admin, and you should see "New Update 1.7.X. Click on the button.
 
 {% embed url="https://www.loom.com/share/15cc92bffca0416da783972f55bbce79" %}
 
-This is combined update from 1.5.8 till 1.7.3
+This is a combined update from 1.5.8 till 1.7.3
 
 ### Improvements
 
