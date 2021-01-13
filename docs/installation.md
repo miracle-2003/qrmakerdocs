@@ -8,17 +8,17 @@ description: Learn how to install QR Menu Maker
 
 QR Menu Maker is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install QR Menu Maker:
 
-* PHP Version: 7.3+
+* PHP Version: 7.4 or 8.0
 * MySQL Version: &gt;= 5.x
 * Application server: Apache, Nginx
-* IMPORTANT: The script can't be installed in subfolder. Only directly in domain or subdomain.
+* IMPORTANT: The script can't be installed in a subfolder. Only directly in domain or subdomain.
 
 ## Prepare to install
 
 Installing QR Menu Maker is very easy and you'll be able to install it without any coding knowledge. The installation process included three major steps:
 
 1. **Creating domain or subdomain**
-2. **Creating database**
+2. **Creating a database**
 3. **Uploading script files to the host**
 4. **Creating environment configuration**
 
