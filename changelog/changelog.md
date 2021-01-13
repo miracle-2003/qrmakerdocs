@@ -2,7 +2,7 @@
 
 ## 2.0.0 - 2021-01-14
 
-This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. 
+This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. **Note** that now, you need to change php version to 7.4 or 8.0.
 
 ### New
 
