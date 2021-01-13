@@ -12,6 +12,7 @@ This is a major update and is not available via 1 Click update. You will need to
 * Option restaurants to change currency
 * New install and 1 click update process
 * Bug Fixes
+* Easy way to add new payment methods
 
 ### Updating
 
