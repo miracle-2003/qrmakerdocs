@@ -34,11 +34,11 @@ Extract the zip files. Overwriting old files.
 
 Go once again to your file manager and upload your old .env file
 
-### 6. After files are moved, open your site and go to setting
+### 6. IMPORTANT: Let know the project that the system is already installed
+
+Create an empty file named  **installed** in **/storage**
+
+### 7. After files are moved, open your site and go to Settings
 
 Here, if there are migrations for the database to be done, will be run. 
-
-### 7. See the changelog and Environment variables to see what new features are added and how to enable them.
-
-{% page-ref page="../docs/environment-configuration.md" %}
 
