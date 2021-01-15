@@ -8,7 +8,7 @@ description: >-
 
 ## Video Instruction
 
-{% embed url="https://www.youtube.com/watch?v=HQ-IwHLl9vE" %}
+{% embed url="https://youtu.be/-nufYtcRWmo" %}
 
 
 

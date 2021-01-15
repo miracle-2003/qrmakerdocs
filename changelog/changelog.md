@@ -4,6 +4,10 @@
 
 This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. **Note** that now, you need to change php version to 7.4 or 8.0.
 
+{% embed url="https://youtu.be/FeN7\_c8k2kY" %}
+
+
+
 ### New
 
 * Update to latest Laravel 8

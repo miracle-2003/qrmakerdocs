@@ -23,9 +23,9 @@ Installing QR Menu Maker is very easy and you'll be able to install it without a
 
 **Now below you can watch the video installation tutorial or you can continue with step by step.**
 
-{% hint style="info" %}
-**Warning:** The video installation tutorial doesn't include an environment explanation. You can check that in the steps below.
-{% endhint %}
+{% embed url="https://youtu.be/DgJ3dpeYNVY" %}
+
+\*\*\*\*
 
 ### Installation on Shared Hosting
 
