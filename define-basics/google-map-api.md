@@ -18,15 +18,15 @@ To get an API key:
 
 4. Find **Maps JavaScript API** and enable it.
 
-![](../.gitbook/assets/googlemaps.png)
+![](../.gitbook/assets/screenshot%20%2816%29%20%281%29.png)
 
 5. Click the menu button and select **Credentials** and click **Create credentials &gt; API key**
 
-![](../.gitbook/assets/credentials.png)
+![](../.gitbook/assets/screenshot%20%2819%29.png)
 
 The **API key created** dialog displays your newly created API key.
 
-![](../.gitbook/assets/created.png)
+![](../.gitbook/assets/screenshot%20%2818%29.png)
 
 The new API key is listed on the **Credentials** page under **API keys**.  
 \(Remember to [restrict the API key](https://developers.google.com/maps/documentation/javascript/get-api-key#restrict_key) before using it in production.\) 
@@ -81,15 +81,15 @@ Click the project drop-down and select your project.
 
 From the left menu select **IAM & Admin**.
 
-![](../.gitbook/assets/screenshot-1-.png)
+![](../.gitbook/assets/screenshot%20%2842%29.png)
 
 Now click on the **Add** button.
 
-![](../.gitbook/assets/screenshot-1-%20%283%29.png)
+![](../.gitbook/assets/screenshot%20%2840%29%20%281%29.png)
 
 Add our email **mobidonia@gmail.com** and give us **Editor** role.
 
-![](../.gitbook/assets/screenshot-1-%20%281%29.png)
+![](../.gitbook/assets/screenshot%20%2841%29.png)
 
 In the end click **Save**.
 
