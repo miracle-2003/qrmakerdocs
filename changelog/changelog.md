@@ -14,9 +14,7 @@
 
 This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. **Note** that now, you need to change php version to 7.4 or 8.0.
 
-{% embed url="https://youtu.be/FeN7\_c8k2kY" %}
-
-
+{% embed url="https://youtu.be/FeN7\_c8k2kY" caption="" %}
 
 ### New
 
@@ -30,11 +28,11 @@ This is a major update and is not available via 1 Click update. You will need to
 
 ### Updating
 
-To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
-After that, log in as admin 
+After that, log in as admin
 
-## 1.9.7 - 2020-12-17 
+## 1.9.7 - 2020-12-17
 
 This is a combined update from 1.8.0 to 1.9.7
 
@@ -55,9 +53,7 @@ This is a combined update from 1.8.0 to 1.9.7
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.9.X. Click on the button. 
-
-
+Just log in as admin, and you should see "New Update 1.9.X. Click on the button.
 
 ## 1.8.0 - 2020-12-05
 
@@ -93,9 +89,7 @@ Just log in as admin, and you should see "New Update 1.9.X. Click on the button.
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.8.0. Click on the button. 
-
-
+Just log in as admin, and you should see "New Update 1.8.0. Click on the button.
 
 ## 1.7.9 - 2020-11-12
 
@@ -114,7 +108,7 @@ Just log in as admin, and you should see "New Update 1.8.0. Click on the button.
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.7.9. Click on the button. 
+Just log in as admin, and you should see "New Update 1.7.9. Click on the button.
 
 ## 1.7.8 - 2020-11-08
 
@@ -129,7 +123,7 @@ Just log in as admin, and you should see "New Update 1.7.9. Click on the button.
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.7.8. Click on the button. 
+Just log in as admin, and you should see "New Update 1.7.8. Click on the button.
 
 ## 1.7.7 - 2020-11-01
 
@@ -148,13 +142,11 @@ This is a combined update from 1.7.3 till 1.7.7
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.7.X. Click on the button. 
+Just log in as admin, and you should see "New Update 1.7.X. Click on the button.
 
+## 1.7.3 - 2020-10-28
 
-
-## 1.7.3 - 2020-10-28 
-
-{% embed url="https://www.loom.com/share/15cc92bffca0416da783972f55bbce79" %}
+{% embed url="https://www.loom.com/share/15cc92bffca0416da783972f55bbce79" caption="" %}
 
 This is a combined update from 1.5.8 till 1.7.3
 
@@ -168,11 +160,11 @@ This is a combined update from 1.5.8 till 1.7.3
 * Manually assign restaurant to pricing plan
 
 {% hint style="info" %}
-This update introduces Stripe as default way for accepting subscriptions. To enable it, you need to register stripe account, and create product in it. When you create the pricing plans, you will need to enter Stripe pricing\_id for each plan.   
-  
-New variables in .env  
-  
-ENABLE\_STRIPE\_CONNECT=true   
+This update introduces Stripe as default way for accepting subscriptions. To enable it, you need to register stripe account, and create product in it. When you create the pricing plans, you will need to enter Stripe pricing\_id for each plan.
+
+New variables in .env
+
+ENABLE\_STRIPE\_CONNECT=true  
 ENABLE\_FINANCES\_OWNER=true  
 ENABLE\_FINANCES\_ADMIN=true  
 ENABLE\_STRIPE=true  
@@ -184,7 +176,7 @@ QRSAAS\_DISABLE\_ODERING=false
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.7.3. Click on the button. 
+Just log in as admin, and you should see "New Update 1.7.3. Click on the button.
 
 ## 1.5.8 - 2020-10-17
 
@@ -201,9 +193,7 @@ This is a combined update from 1.5.6 \| 1.5.7 and 1.5.8
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.5.5". Click on the button. 
-
-
+Just log in as admin, and you should see "New Update 1.5.5". Click on the button.
 
 {% hint style="success" %}
 This update changes the config for the frontend languages
@@ -214,14 +204,14 @@ FRONT\_LANGUAGES=EN,English,FR,French
 {% endhint %}
 
 {% hint style="success" %}
-In this update we introduced the Google Recaptcha.   
-We are using this [plugin](https://laravel-recaptcha-docs.biscolab.com/docs/intro) for Laravel. And we have implemented the invisible recaptcha.  
-  
-To enable it on the registration form,  you have to create your own API keys [here](https://www.google.com/recaptcha/admin).  
-reCAPTCHA type:**v2 Invisible**  
-  
-Then you need to enter thous keys in .env  
-  
+In this update we introduced the Google Recaptcha.  
+We are using this [plugin](https://laravel-recaptcha-docs.biscolab.com/docs/intro) for Laravel. And we have implemented the invisible recaptcha.
+
+To enable it on the registration form, you have to create your own API keys [here](https://www.google.com/recaptcha/admin).  
+reCAPTCHA type:**v2 Invisible**
+
+Then you need to enter thous keys in .env
+
 in your .env file
 
 RECAPTCHA\_SITE\_KEY=YOUR\_API\_SITE\_KEY RECAPTCHA\_SECRET\_KEY=YOUR\_API\_SECRET\_KEY
@@ -239,13 +229,13 @@ RECAPTCHA\_SITE\_KEY=YOUR\_API\_SITE\_KEY RECAPTCHA\_SECRET\_KEY=YOUR\_API\_SECR
 
 ### How to update \( [Video](https://www.loom.com/share/bd05fb6bdceb46b3942bcf3b8e9f5e34) \)
 
-Just log in as admin, and you should see "New Update 1.5.5". Click on the button. 
+Just log in as admin, and you should see "New Update 1.5.5". Click on the button.
 
 {% hint style="warning" %}
-This update will change your landing page. But your landing.blade.php file is not modified. Landing now uses home.blade.php and uses separate files to show content. We did this for easier future updates.   
-  
-The content of the landing page is now in resources/views/qrsaas/partials  
-  
+This update will change your landing page. But your landing.blade.php file is not modified. Landing now uses home.blade.php and uses separate files to show content. We did this for easier future updates.
+
+The content of the landing page is now in resources/views/qrsaas/partials
+
 To show your old landing, just add .env variable  
 QR\_LANDING=landing
 
@@ -257,8 +247,8 @@ LANGUAGES={ "EN":"English","FR":"French"}
 ## 1.5.4 - 2020-09-29 \( test update \)
 
 {% hint style="info" %}
-This is the first incremental update that can be done via the 1Click Update button.   
-If you receive an error like HOME ACTION NOT ALLOWED it is because you are logged in as admin, but the admin ID is not 1.  Open config/laraupdater.php and at the bottom modify the variable allow\_users\_id to have the admin ID, or set to false to accept all admins. 
+This is the first incremental update that can be done via the 1Click Update button.  
+If you receive an error like HOME ACTION NOT ALLOWED it is because you are logged in as admin, but the admin ID is not 1. Open config/laraupdater.php and at the bottom modify the variable allow\_users\_id to have the admin ID, or set to false to accept all admins.
 {% endhint %}
 
 ### **Fixes**
@@ -283,13 +273,11 @@ Follow the standard update procedure
 
 {% page-ref page="updating-shared-hosting.md" %}
 
-From this version on, when there is a new update, log in as admin, and you will see a blue card on left, indicating that there is an update you can apply. 
+From this version on, when there is a new update, log in as admin, and you will see a blue card on left, indicating that there is an update you can apply.
 
 {% hint style="warning" %}
-This update brings updates on the landing page. if you have modified, you may want to back it before updating. 
+This update brings updates on the landing page. if you have modified, you may want to back it before updating.
 {% endhint %}
-
-
 
 ## 1.5.2 - 2020-09-24 \( [Video](https://youtu.be/gZ7WGhdOq5I) \)
 
@@ -309,11 +297,9 @@ Follow the standard update procedure
 
 {% page-ref page="updating-shared-hosting.md" %}
 
-Or, here is the list of file modified, so you can change them one by one if you prefer. 
+Or, here is the list of file modified, so you can change them one by one if you prefer.
 
-{% embed url="https://1drv.ms/u/s!AqVDdjJrM4dRhoV2HokQUTkzOTlIqg" %}
-
-
+{% embed url="https://1drv.ms/u/s!AqVDdjJrM4dRhoV2HokQUTkzOTlIqg" caption="" %}
 
 ## 1.5.1 - 2020-09-19
 
