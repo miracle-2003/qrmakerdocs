@@ -86,9 +86,24 @@ In the text area enter the following sql command. After executing [THIS](https:/
 5. According to a study, 20% of the print menu prices aren't up to date. With QR menu, they will always see up today prices and menu items. 
 6. They will be able to quickly see the correct item price. They are able to select different item variants and variant's extras.
 
-## Common problems
+## Update problems
 
-### Error on update
+### Error on update 500
+
+**Problem**: When you click on the update button, you get blank screen with error 500. 
+
+**Cause**: This mostly happens because there is not enough memory available. You can check "Error" pages in cPanel to confirm
+
+**Solution**: 
+Go to you cPanel
+There find the tool "MultiPHP INI Editor"
+Select the project
+memory_limit put to 512M
+This should bee enough
+Then try to update again
+
+
+### Error on update 503
 
 **Problem**: After an update, some users experience error 503 \| Service not found.
 
@@ -118,12 +133,35 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 
 1. Login as admin
 2. Go In **Setting**
-3. Select **Settup** tab
+3. Select **Setup** tab
 4. Select **APP\_DEBUG**
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct. 
 
-For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/\#qrsaas](https://help.mobidonia.com/#qrsaas)
+For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/](https://help.mobidonia.com)
+
+## Error 500 on migrating languages
+
+**Problem**  
+Before, 2.0.8 if you try to migrate language you can get error 500. 
+And some of the item like the categories, can be translated multiple times like ```text{en:\\\en:\\\......}```
+
+**Reason**  
+This happens because we didn't look into object active status.
+And script crashed when it tried to translate un-active record.
+
+**Solution**  
+Update to 2.0.8+
+For the ```text{en:\\\en:\\\......}```, if you don't have lot of data, you can manually edit them from the admin.
+If you have lot of data, 
+- Export the categories and items table
+- Find replace, so it looks normal
+- Delete categories and items by ignoring foreign keys and import again
+Or ask for help from us. 
+
+Then make the translation migration again. Now should go fine. 
+
+
 
 ## SQL Error - Table not found
 
@@ -173,68 +211,6 @@ Here we search for **fileinfo** and enable phpx.x-php-fileinfo for all versions.
 This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
-
-## Error after install
-
-**Error**
-
-You are redirected to yourdomain.com/install
-
-**Reason**
-
-You have entered the wrong database connection settings. 
-
-**Solution**
-
-Open file manager  
-
-Remove the file storage/installed
-
-Visit your site again, and make sure database data is correct. 
-
-## Error after update 1.9.7
-
-1. **Error on orders details page.**
-
-  
-After the version 1.9.7 there is error on opening order details page.  
-  
-To resolve this issue until the version 2.0 you will need to make these changes.  
-  
-Find the files in these two locations **resources/views/orders/index.blade.php** and **resources/views/orders/partials/modals.blade.php**
-
-Copy the code from the modified files and replace the files in your project.
-
-{% file src="../.gitbook/assets/index.blade.php" caption="index.blade.php" %}
-
-{% file src="../.gitbook/assets/modals.blade.php" caption="modals.blade.php" %}
-
-After these changes the issue should be resolved.
-
-
-
-    2. **Error or delivery area map.**
-
-To resolve this issue until the version 2.0 you will need to make this change.
-
-Find the files in the location resources/views/restorants/edit.blade.php
-
-Find the line 149 and change the code from this
-
-```text
-changeDeliveryArea(pagetLatLngFromPoly(path))
-```
-
-to this
-
-```text
- changeDeliveryArea(getLatLngFromPoly(path))
-```
-
-  
-Stay tuned for the version 2.0 :\)
-
-
 
 
 
